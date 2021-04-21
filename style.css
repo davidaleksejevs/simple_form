@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background: white;
+  color: black;
+}
+
+.web-title {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.form-style {
+  background-image: none;
+  margin: 5%;
+}
+
+input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem;
+  background: white;
+  border-color: black;
+  color: black;
+}
+
+.form-style label {
+  float: left;
+  width: 25%;
+  margin-top: 25px;
+}
+
+.form-style input, select {
+  float: right;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* @media screen and (max-width: 600px) {
+  .form-style label, .form-style input,select [type=submit] {
+    width: 100%;
+    margin-top: 1rem;
+  }
+} */
+

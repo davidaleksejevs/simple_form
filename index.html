@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="web-title">
+      <h1 class="title">Random survey</h1>
+      <p>thank you for taking the time to help us improve the platform</p>
+    </div>
+    <section class="form-style">
+     <form>
+       <label for="Fname">Name</label>
+       <input type="text" name="name" placeholder="Enter your name" />
+       <label class="tst" for="Email">Email</label>
+       <input type="email" name="email" placeholder="Enter your Email" />
+       <label for="Role">Job</label>
+       <select name="Role" id="job">
+        <option value="VOID">select an current role</option>
+        <option value="Student">Student</option>
+        <option value="Full time">Full time</option>
+        <option value="Part time">Part time</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+       </select>
+       <label for="text">improvements (optional)</label>
+       <input type="text">
+       <input type="button" value="submit">
+    </form>
+  </section>
+    
+  </body>
+</html>
